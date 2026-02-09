@@ -39,6 +39,11 @@
 
 ### System Layout & Memory Map
 *   **I/O 할당 및 메모리 설계**
+
+<br>
+
+파일 구조
+     
 ![파일구조](./포트폴리오자료/파일구성.png)
 <details>
 <summary>System Layout & Memory Map (토글)</summary>
