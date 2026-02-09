@@ -39,6 +39,7 @@
 
 ### System Layout & Memory Map
 *   **I/O 할당 및 메모리 설계**
+![파일구조](./포트폴리오자료/파일구성.png)
 <details>
 <summary>System Layout & Memory Map (토글)</summary>
 
@@ -195,6 +196,8 @@
     *   물리적 한계점 도달 시 서보 강제 정지.
 
 ### 8.2. 소프트웨어 안전 설계 
+*   **Initialization** 시스템 시작시 모든 실린더를 초기 위치로이동.
+*   **Safty Lock** 모든 시스템이 초기위치가 아니라면 작동 불가.
 *   **Timeout Error:** 실린더나 모터가 명령 후 일정 시간 내에 동작 완료 신호를 보내지 않으면 에러 발생 및 부저 출력.
 *   **Interlock:**
     *   흡착 실린더 전진(On) 중에는 수평/수직 이동 모터 동작 불가.
